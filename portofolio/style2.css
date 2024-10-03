@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document*/
+body{
+    background-color:  rgb(206, 245, 245);
+    margin:0px;
+    padding:0px;
+}
+ 
+ul{
+    list-style:none;
+}
+ 
+a{
+    text-decoration:none;
+}
+ 
+section{
+    width:100%;
+    height:95vh;
+    position: relative;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#9ac7bf;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+     
+}
+nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:#110d0d;
+    font-size: 15px;
+    font-weight:700;
+}
+ 
+.logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table, th, td {
+    border: 1px solid rgb(185, 184, 184);
+    height: 68px;
+}
+
+th, td {
+    padding: 10px;
+}
